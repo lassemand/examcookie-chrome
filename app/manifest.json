@@ -1,0 +1,19 @@
+{
+  "name": "Examcookie",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Extensions used to provide chrome visited urls",
+  "icons": {
+    "16": "images/icon-16.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
